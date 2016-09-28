@@ -1,0 +1,1046 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32735311D9A1CBD006018CA /* NSDate+RDDateAsString.m in Sources */ = {isa = PBXBuildFile; fileRef = C327351A1D9A1CBD006018CA /* NSDate+RDDateAsString.m */; };
+		C32735321D9A1CBD006018CA /* RDContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C327351C1D9A1CBD006018CA /* RDContainer.mm */; };
+		C32735331D9A1CBD006018CA /* RDMediaOverlaysSmilModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = C327351E1D9A1CBD006018CA /* RDMediaOverlaysSmilModel.mm */; };
+		C32735341D9A1CBD006018CA /* RDNavigationElement.mm in Sources */ = {isa = PBXBuildFile; fileRef = C32735201D9A1CBD006018CA /* RDNavigationElement.mm */; };
+		C32735351D9A1CBD006018CA /* RDPackage.mm in Sources */ = {isa = PBXBuildFile; fileRef = C32735221D9A1CBD006018CA /* RDPackage.mm */; };
+		C32735361D9A1CBD006018CA /* RDPackageResource.mm in Sources */ = {isa = PBXBuildFile; fileRef = C32735241D9A1CBD006018CA /* RDPackageResource.mm */; };
+		C32735371D9A1CBD006018CA /* RDPackageResourceConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735261D9A1CBD006018CA /* RDPackageResourceConnection.m */; };
+		C32735381D9A1CBD006018CA /* RDPackageResourceDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735281D9A1CBD006018CA /* RDPackageResourceDataResponse.m */; };
+		C32735391D9A1CBD006018CA /* RDPackageResourceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C327352A1D9A1CBD006018CA /* RDPackageResourceResponse.m */; };
+		C327353A1D9A1CBD006018CA /* RDPackageResourceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C327352C1D9A1CBD006018CA /* RDPackageResourceServer.m */; };
+		C327353B1D9A1CBD006018CA /* RDSmilData.mm in Sources */ = {isa = PBXBuildFile; fileRef = C327352E1D9A1CBD006018CA /* RDSmilData.mm */; };
+		C327353C1D9A1CBD006018CA /* RDSpineItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = C32735301D9A1CBD006018CA /* RDSpineItem.mm */; };
+		C327354D1D9A1CF2006018CA /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735421D9A1CF2006018CA /* HTTPAuthenticationRequest.m */; };
+		C327354E1D9A1CF2006018CA /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735441D9A1CF2006018CA /* HTTPConnection.m */; };
+		C327354F1D9A1CF2006018CA /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735471D9A1CF2006018CA /* HTTPMessage.m */; };
+		C32735501D9A1CF2006018CA /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C327354A1D9A1CF2006018CA /* HTTPServer.m */; };
+		C32735511D9A1CF2006018CA /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C327354C1D9A1CF2006018CA /* WebSocket.m */; };
+		C32735581D9A1D18006018CA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735561D9A1D18006018CA /* GCDAsyncSocket.m */; };
+		C32735651D9A1D24006018CA /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C327355B1D9A1D24006018CA /* DDAbstractDatabaseLogger.m */; };
+		C32735661D9A1D24006018CA /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C327355D1D9A1D24006018CA /* DDASLLogger.m */; };
+		C32735671D9A1D24006018CA /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C327355F1D9A1D24006018CA /* DDFileLogger.m */; };
+		C32735681D9A1D24006018CA /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735611D9A1D24006018CA /* DDLog.m */; };
+		C32735691D9A1D24006018CA /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735631D9A1D24006018CA /* DDTTYLogger.m */; };
+		C32735701D9A1D3D006018CA /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C327356C1D9A1D3D006018CA /* ContextFilterLogFormatter.m */; };
+		C32735711D9A1D3D006018CA /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C327356E1D9A1D3D006018CA /* DispatchQueueLogFormatter.m */; };
+		C327357A1D9A1D64006018CA /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735751D9A1D64006018CA /* DDData.m */; };
+		C327357B1D9A1D64006018CA /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735771D9A1D64006018CA /* DDNumber.m */; };
+		C327357C1D9A1D64006018CA /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735791D9A1D64006018CA /* DDRange.m */; };
+		C32735841D9A1D76006018CA /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C327357F1D9A1D76006018CA /* MultipartFormDataParser.m */; };
+		C32735851D9A1D76006018CA /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735811D9A1D76006018CA /* MultipartMessageHeader.m */; };
+		C32735861D9A1D76006018CA /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735831D9A1D76006018CA /* MultipartMessageHeaderField.m */; };
+		C32735941D9A1D8E006018CA /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735891D9A1D8E006018CA /* HTTPAsyncFileResponse.m */; };
+		C32735951D9A1D8E006018CA /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C327358B1D9A1D8E006018CA /* HTTPDataResponse.m */; };
+		C32735961D9A1D8E006018CA /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C327358D1D9A1D8E006018CA /* HTTPDynamicFileResponse.m */; };
+		C32735971D9A1D8E006018CA /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C327358F1D9A1D8E006018CA /* HTTPErrorResponse.m */; };
+		C32735981D9A1D8E006018CA /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735911D9A1D8E006018CA /* HTTPFileResponse.m */; };
+		C32735991D9A1D8E006018CA /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735931D9A1D8E006018CA /* HTTPRedirectResponse.m */; };
+		C327359D1D9A209C006018CA /* mathjax in Resources */ = {isa = PBXBuildFile; fileRef = C327359C1D9A209C006018CA /* mathjax */; };
+		C32735A71D9A20BD006018CA /* annotations.css in Resources */ = {isa = PBXBuildFile; fileRef = C327359E1D9A20BD006018CA /* annotations.css */; };
+		C32735A81D9A20BD006018CA /* epubReadingSystem.js in Resources */ = {isa = PBXBuildFile; fileRef = C327359F1D9A20BD006018CA /* epubReadingSystem.js */; };
+		C32735AA1D9A20BD006018CA /* host_app_feedback.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735A11D9A20BD006018CA /* host_app_feedback.js */; };
+		C32735AB1D9A20BD006018CA /* reader_RequireJS-multiple-bundles.html in Resources */ = {isa = PBXBuildFile; fileRef = C32735A21D9A20BD006018CA /* reader_RequireJS-multiple-bundles.html */; };
+		C32735AC1D9A20BD006018CA /* reader_RequireJS-no-optimize.html in Resources */ = {isa = PBXBuildFile; fileRef = C32735A31D9A20BD006018CA /* reader_RequireJS-no-optimize.html */; };
+		C32735AD1D9A20BD006018CA /* reader_RequireJS-single-bundle.html in Resources */ = {isa = PBXBuildFile; fileRef = C32735A41D9A20BD006018CA /* reader_RequireJS-single-bundle.html */; };
+		C32735AE1D9A20BD006018CA /* reader.css in Resources */ = {isa = PBXBuildFile; fileRef = C32735A51D9A20BD006018CA /* reader.css */; };
+		C32735AF1D9A20BD006018CA /* reader.html in Resources */ = {isa = PBXBuildFile; fileRef = C32735A61D9A20BD006018CA /* reader.html */; };
+		C32735B01D9A213F006018CA /* libePub3-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735161D9A1C91006018CA /* libePub3-iOS.a */; };
+		C32735B31D9A214B006018CA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735B21D9A214B006018CA /* libz.tbd */; };
+		C32735B51D9A2151006018CA /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735B41D9A2151006018CA /* libxml2.tbd */; };
+		C32735B71D9A2159006018CA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735B61D9A2159006018CA /* WebKit.framework */; };
+		C32735B91D9A215F006018CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735B81D9A215F006018CA /* UIKit.framework */; };
+		C32735BD1D9A22FA006018CA /* readium-shared-js in Resources */ = {isa = PBXBuildFile; fileRef = C32735BC1D9A22FA006018CA /* readium-shared-js */; };
+		C32735C11D9A2657006018CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735C01D9A2657006018CA /* AVFoundation.framework */; };
+		C32735C31D9A2662006018CA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735C21D9A2662006018CA /* CFNetwork.framework */; };
+		C32735C51D9A2668006018CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735C41D9A2668006018CA /* Foundation.framework */; };
+		C32735C71D9A2674006018CA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735C61D9A2674006018CA /* MobileCoreServices.framework */; };
+		C32735C91D9A267D006018CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735C81D9A267D006018CA /* Security.framework */; };
+		C32735D01D9A2A73006018CA /* LocStr.m in Sources */ = {isa = PBXBuildFile; fileRef = C32735CF1D9A2A73006018CA /* LocStr.m */; };
+		C32735D41D9A2E29006018CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735D31D9A2E29006018CA /* CoreGraphics.framework */; };
+		C32735D61D9A3081006018CA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32735D51D9A3081006018CA /* CoreData.framework */; };
+		C32735E21D9A35EE006018CA /* readium-cfi-js.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735D81D9A35EE006018CA /* readium-cfi-js.js */; };
+		C32735E31D9A35EE006018CA /* readium-cfi-js.js.bundles.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735D91D9A35EE006018CA /* readium-cfi-js.js.bundles.js */; };
+		C32735E41D9A35EE006018CA /* readium-external-libs.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735DB1D9A35EE006018CA /* readium-external-libs.js */; };
+		C32735E51D9A35EE006018CA /* readium-external-libs.js.bundles.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735DC1D9A35EE006018CA /* readium-external-libs.js.bundles.js */; };
+		C32735E61D9A35EE006018CA /* readium-shared-js.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735DE1D9A35EE006018CA /* readium-shared-js.js */; };
+		C32735E71D9A35EE006018CA /* readium-shared-js.js.bundles.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735DF1D9A35EE006018CA /* readium-shared-js.js.bundles.js */; };
+		C32735E81D9A35EE006018CA /* RequireJS.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735E11D9A35EE006018CA /* RequireJS.js */; };
+		C32735EC1D9A360E006018CA /* readium-shared-js_all.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735E91D9A360E006018CA /* readium-shared-js_all.js */; };
+		C32735ED1D9A360E006018CA /* readium-shared-js_all.js.bundles.js in Resources */ = {isa = PBXBuildFile; fileRef = C32735EA1D9A360E006018CA /* readium-shared-js_all.js.bundles.js */; };
+		C32735EF1D9A3614006018CA /* sdk.css in Resources */ = {isa = PBXBuildFile; fileRef = C32735EE1D9A3614006018CA /* sdk.css */; };
+		C32735FF1D9A4206006018CA /* childrens-literature-20130206.epub in Resources */ = {isa = PBXBuildFile; fileRef = C32735F81D9A4206006018CA /* childrens-literature-20130206.epub */; };
+		C32736001D9A4206006018CA /* epub30-test-0120-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = C32735F91D9A4206006018CA /* epub30-test-0120-20131022.epub */; };
+		C32736011D9A4206006018CA /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = C32735FA1D9A4206006018CA /* epub30-test-0220-20131022.epub */; };
+		C32736021D9A4206006018CA /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = C32735FB1D9A4206006018CA /* epubReadingSystem.epub */; };
+		C32736031D9A4206006018CA /* moby-dick-20120118.epub in Resources */ = {isa = PBXBuildFile; fileRef = C32735FC1D9A4206006018CA /* moby-dick-20120118.epub */; };
+		C32736041D9A4206006018CA /* page-blanche-20130322.epub in Resources */ = {isa = PBXBuildFile; fileRef = C32735FD1D9A4206006018CA /* page-blanche-20130322.epub */; };
+		C32736051D9A4206006018CA /* wasteland-20120118.epub in Resources */ = {isa = PBXBuildFile; fileRef = C32735FE1D9A4206006018CA /* wasteland-20120118.epub */; };
+		C32736081D9A4A63006018CA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32736071D9A4A63006018CA /* BaseViewController.m */; };
+		C327360C1D9A50F8006018CA /* EPubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C327360B1D9A50F8006018CA /* EPubViewController.m */; };
+		C327360F1D9A5410006018CA /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = C327360E1D9A5410006018CA /* Bookmark.m */; };
+		C32736121D9A542B006018CA /* BookmarkDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C32736111D9A542B006018CA /* BookmarkDatabase.m */; };
+		C32736151D9A548D006018CA /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = C32736141D9A548D006018CA /* Settings.m */; };
+		C327361A1D9A54AF006018CA /* EPubSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C32736171D9A54AF006018CA /* EPubSettings.m */; };
+		C327361B1D9A54AF006018CA /* EPubSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32736191D9A54AF006018CA /* EPubSettingsController.m */; };
+		C39384CF1D956EA300887AE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C39384CE1D956EA300887AE4 /* main.m */; };
+		C39384D21D956EA300887AE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C39384D11D956EA300887AE4 /* AppDelegate.m */; };
+		C39384D51D956EA300887AE4 /* BooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39384D41D956EA300887AE4 /* BooksListViewController.m */; };
+		C39384D81D956EA300887AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39384D61D956EA300887AE4 /* Main.storyboard */; };
+		C39384DD1D956EA300887AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39384DC1D956EA300887AE4 /* Assets.xcassets */; };
+		C39384E01D956EA300887AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39384DE1D956EA300887AE4 /* LaunchScreen.storyboard */; };
+		C39384EA1D9610D100887AE4 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C39384E91D9610D100887AE4 /* AppManager.m */; };
+		C39384ED1D96234B00887AE4 /* BookItemUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C39384EC1D96234B00887AE4 /* BookItemUICollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32735131D9A1C91006018CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327350D1D9A1C91006018CA /* ePub3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA72C241655382E003125FF;
+			remoteInfo = ePub3;
+		};
+		C32735151D9A1C91006018CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327350D1D9A1C91006018CA /* ePub3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA4BAE016ADF5A600161B77;
+			remoteInfo = "ePub3-iOS";
+		};
+		C32735171D9A1C91006018CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327350D1D9A1C91006018CA /* ePub3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AB61CE4A1694845700299BB1;
+			remoteInfo = UnitTests;
+		};
+		C327359A1D9A1FEC006018CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327350D1D9A1C91006018CA /* ePub3.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA4BADF16ADF5A600161B77;
+			remoteInfo = "ePub3-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C327350D1D9A1C91006018CA /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
+		C32735191D9A1CBD006018CA /* NSDate+RDDateAsString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+RDDateAsString.h"; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/NSDate+RDDateAsString.h"; sourceTree = "<group>"; };
+		C327351A1D9A1CBD006018CA /* NSDate+RDDateAsString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RDDateAsString.m"; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/NSDate+RDDateAsString.m"; sourceTree = "<group>"; };
+		C327351B1D9A1CBD006018CA /* RDContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDContainer.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDContainer.h"; sourceTree = "<group>"; };
+		C327351C1D9A1CBD006018CA /* RDContainer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RDContainer.mm; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDContainer.mm"; sourceTree = "<group>"; };
+		C327351D1D9A1CBD006018CA /* RDMediaOverlaysSmilModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDMediaOverlaysSmilModel.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDMediaOverlaysSmilModel.h"; sourceTree = "<group>"; };
+		C327351E1D9A1CBD006018CA /* RDMediaOverlaysSmilModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RDMediaOverlaysSmilModel.mm; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDMediaOverlaysSmilModel.mm"; sourceTree = "<group>"; };
+		C327351F1D9A1CBD006018CA /* RDNavigationElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDNavigationElement.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDNavigationElement.h"; sourceTree = "<group>"; };
+		C32735201D9A1CBD006018CA /* RDNavigationElement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RDNavigationElement.mm; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDNavigationElement.mm"; sourceTree = "<group>"; };
+		C32735211D9A1CBD006018CA /* RDPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPackage.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackage.h"; sourceTree = "<group>"; };
+		C32735221D9A1CBD006018CA /* RDPackage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RDPackage.mm; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackage.mm"; sourceTree = "<group>"; };
+		C32735231D9A1CBD006018CA /* RDPackageResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPackageResource.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResource.h"; sourceTree = "<group>"; };
+		C32735241D9A1CBD006018CA /* RDPackageResource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RDPackageResource.mm; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResource.mm"; sourceTree = "<group>"; };
+		C32735251D9A1CBD006018CA /* RDPackageResourceConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPackageResourceConnection.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResourceConnection.h"; sourceTree = "<group>"; };
+		C32735261D9A1CBD006018CA /* RDPackageResourceConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPackageResourceConnection.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResourceConnection.m"; sourceTree = "<group>"; };
+		C32735271D9A1CBD006018CA /* RDPackageResourceDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPackageResourceDataResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResourceDataResponse.h"; sourceTree = "<group>"; };
+		C32735281D9A1CBD006018CA /* RDPackageResourceDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPackageResourceDataResponse.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResourceDataResponse.m"; sourceTree = "<group>"; };
+		C32735291D9A1CBD006018CA /* RDPackageResourceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPackageResourceResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResourceResponse.h"; sourceTree = "<group>"; };
+		C327352A1D9A1CBD006018CA /* RDPackageResourceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPackageResourceResponse.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResourceResponse.m"; sourceTree = "<group>"; };
+		C327352B1D9A1CBD006018CA /* RDPackageResourceServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPackageResourceServer.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResourceServer.h"; sourceTree = "<group>"; };
+		C327352C1D9A1CBD006018CA /* RDPackageResourceServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPackageResourceServer.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDPackageResourceServer.m"; sourceTree = "<group>"; };
+		C327352D1D9A1CBD006018CA /* RDSmilData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDSmilData.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDSmilData.h"; sourceTree = "<group>"; };
+		C327352E1D9A1CBD006018CA /* RDSmilData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RDSmilData.mm; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDSmilData.mm"; sourceTree = "<group>"; };
+		C327352F1D9A1CBD006018CA /* RDSpineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDSpineItem.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDSpineItem.h"; sourceTree = "<group>"; };
+		C32735301D9A1CBD006018CA /* RDSpineItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RDSpineItem.mm; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/Main/RDSpineItem.mm"; sourceTree = "<group>"; };
+		C32735411D9A1CF2006018CA /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPAuthenticationRequest.h"; sourceTree = "<group>"; };
+		C32735421D9A1CF2006018CA /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPAuthenticationRequest.m"; sourceTree = "<group>"; };
+		C32735431D9A1CF2006018CA /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPConnection.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPConnection.h"; sourceTree = "<group>"; };
+		C32735441D9A1CF2006018CA /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPConnection.m"; sourceTree = "<group>"; };
+		C32735451D9A1CF2006018CA /* HTTPLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPLogging.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPLogging.h"; sourceTree = "<group>"; };
+		C32735461D9A1CF2006018CA /* HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPMessage.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPMessage.h"; sourceTree = "<group>"; };
+		C32735471D9A1CF2006018CA /* HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPMessage.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPMessage.m"; sourceTree = "<group>"; };
+		C32735481D9A1CF2006018CA /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPResponse.h"; sourceTree = "<group>"; };
+		C32735491D9A1CF2006018CA /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPServer.h"; sourceTree = "<group>"; };
+		C327354A1D9A1CF2006018CA /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/HTTPServer.m"; sourceTree = "<group>"; };
+		C327354B1D9A1CF2006018CA /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/WebSocket.h"; sourceTree = "<group>"; };
+		C327354C1D9A1CF2006018CA /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/WebSocket.m"; sourceTree = "<group>"; };
+		C32735541D9A1D18006018CA /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = About.txt; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaAsyncSocket/About.txt"; sourceTree = "<group>"; };
+		C32735551D9A1D18006018CA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h"; sourceTree = "<group>"; };
+		C32735561D9A1D18006018CA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"; sourceTree = "<group>"; };
+		C32735591D9A1D24006018CA /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = About.txt; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/About.txt"; sourceTree = "<group>"; };
+		C327355A1D9A1D24006018CA /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDAbstractDatabaseLogger.h"; sourceTree = "<group>"; };
+		C327355B1D9A1D24006018CA /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDAbstractDatabaseLogger.m"; sourceTree = "<group>"; };
+		C327355C1D9A1D24006018CA /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDASLLogger.h"; sourceTree = "<group>"; };
+		C327355D1D9A1D24006018CA /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDASLLogger.m"; sourceTree = "<group>"; };
+		C327355E1D9A1D24006018CA /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDFileLogger.h"; sourceTree = "<group>"; };
+		C327355F1D9A1D24006018CA /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDFileLogger.m"; sourceTree = "<group>"; };
+		C32735601D9A1D24006018CA /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDLog.h"; sourceTree = "<group>"; };
+		C32735611D9A1D24006018CA /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDLog.m"; sourceTree = "<group>"; };
+		C32735621D9A1D24006018CA /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDTTYLogger.h"; sourceTree = "<group>"; };
+		C32735631D9A1D24006018CA /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/DDTTYLogger.m"; sourceTree = "<group>"; };
+		C327356B1D9A1D3D006018CA /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContextFilterLogFormatter.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/Extensions/ContextFilterLogFormatter.h"; sourceTree = "<group>"; };
+		C327356C1D9A1D3D006018CA /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContextFilterLogFormatter.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/Extensions/ContextFilterLogFormatter.m"; sourceTree = "<group>"; };
+		C327356D1D9A1D3D006018CA /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DispatchQueueLogFormatter.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/Extensions/DispatchQueueLogFormatter.h"; sourceTree = "<group>"; };
+		C327356E1D9A1D3D006018CA /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DispatchQueueLogFormatter.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/Extensions/DispatchQueueLogFormatter.m"; sourceTree = "<group>"; };
+		C327356F1D9A1D3D006018CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Vendor/CocoaLumberjack/Extensions/README.txt"; sourceTree = "<group>"; };
+		C32735741D9A1D64006018CA /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Categories/DDData.h"; sourceTree = "<group>"; };
+		C32735751D9A1D64006018CA /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDData.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Categories/DDData.m"; sourceTree = "<group>"; };
+		C32735761D9A1D64006018CA /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Categories/DDNumber.h"; sourceTree = "<group>"; };
+		C32735771D9A1D64006018CA /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Categories/DDNumber.m"; sourceTree = "<group>"; };
+		C32735781D9A1D64006018CA /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Categories/DDRange.h"; sourceTree = "<group>"; };
+		C32735791D9A1D64006018CA /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Categories/DDRange.m"; sourceTree = "<group>"; };
+		C327357E1D9A1D76006018CA /* MultipartFormDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultipartFormDataParser.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Mime/MultipartFormDataParser.h"; sourceTree = "<group>"; };
+		C327357F1D9A1D76006018CA /* MultipartFormDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultipartFormDataParser.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Mime/MultipartFormDataParser.m"; sourceTree = "<group>"; };
+		C32735801D9A1D76006018CA /* MultipartMessageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeader.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Mime/MultipartMessageHeader.h"; sourceTree = "<group>"; };
+		C32735811D9A1D76006018CA /* MultipartMessageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeader.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Mime/MultipartMessageHeader.m"; sourceTree = "<group>"; };
+		C32735821D9A1D76006018CA /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeaderField.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Mime/MultipartMessageHeaderField.h"; sourceTree = "<group>"; };
+		C32735831D9A1D76006018CA /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeaderField.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Mime/MultipartMessageHeaderField.m"; sourceTree = "<group>"; };
+		C32735881D9A1D8E006018CA /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPAsyncFileResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPAsyncFileResponse.h"; sourceTree = "<group>"; };
+		C32735891D9A1D8E006018CA /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPAsyncFileResponse.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPAsyncFileResponse.m"; sourceTree = "<group>"; };
+		C327358A1D9A1D8E006018CA /* HTTPDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPDataResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPDataResponse.h"; sourceTree = "<group>"; };
+		C327358B1D9A1D8E006018CA /* HTTPDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPDataResponse.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPDataResponse.m"; sourceTree = "<group>"; };
+		C327358C1D9A1D8E006018CA /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPDynamicFileResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPDynamicFileResponse.h"; sourceTree = "<group>"; };
+		C327358D1D9A1D8E006018CA /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPDynamicFileResponse.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPDynamicFileResponse.m"; sourceTree = "<group>"; };
+		C327358E1D9A1D8E006018CA /* HTTPErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPErrorResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPErrorResponse.h"; sourceTree = "<group>"; };
+		C327358F1D9A1D8E006018CA /* HTTPErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPErrorResponse.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPErrorResponse.m"; sourceTree = "<group>"; };
+		C32735901D9A1D8E006018CA /* HTTPFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPFileResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPFileResponse.h"; sourceTree = "<group>"; };
+		C32735911D9A1D8E006018CA /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPFileResponse.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPFileResponse.m"; sourceTree = "<group>"; };
+		C32735921D9A1D8E006018CA /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPRedirectResponse.h; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPRedirectResponse.h"; sourceTree = "<group>"; };
+		C32735931D9A1D8E006018CA /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPRedirectResponse.m; path = "../Readium/SDKLauncher-iOS/readium-sdk/Platform/Apple/RDServices/ThirdParty/CocoaHTTPServer/Core/Responses/HTTPRedirectResponse.m"; sourceTree = "<group>"; };
+		C327359C1D9A209C006018CA /* mathjax */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mathjax; path = MdCore/Resources/mathjax; sourceTree = "<group>"; };
+		C327359E1D9A20BD006018CA /* annotations.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = annotations.css; path = MdCore/Resources/annotations.css; sourceTree = "<group>"; };
+		C327359F1D9A20BD006018CA /* epubReadingSystem.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = epubReadingSystem.js; path = MdCore/Resources/epubReadingSystem.js; sourceTree = "<group>"; };
+		C32735A11D9A20BD006018CA /* host_app_feedback.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = host_app_feedback.js; path = MdCore/Resources/host_app_feedback.js; sourceTree = "<group>"; };
+		C32735A21D9A20BD006018CA /* reader_RequireJS-multiple-bundles.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "reader_RequireJS-multiple-bundles.html"; path = "MdCore/Resources/reader_RequireJS-multiple-bundles.html"; sourceTree = "<group>"; };
+		C32735A31D9A20BD006018CA /* reader_RequireJS-no-optimize.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "reader_RequireJS-no-optimize.html"; path = "MdCore/Resources/reader_RequireJS-no-optimize.html"; sourceTree = "<group>"; };
+		C32735A41D9A20BD006018CA /* reader_RequireJS-single-bundle.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "reader_RequireJS-single-bundle.html"; path = "MdCore/Resources/reader_RequireJS-single-bundle.html"; sourceTree = "<group>"; };
+		C32735A51D9A20BD006018CA /* reader.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = reader.css; path = MdCore/Resources/reader.css; sourceTree = "<group>"; };
+		C32735A61D9A20BD006018CA /* reader.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = reader.html; path = MdCore/Resources/reader.html; sourceTree = "<group>"; };
+		C32735B21D9A214B006018CA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C32735B41D9A2151006018CA /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		C32735B61D9A2159006018CA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C32735B81D9A215F006018CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C32735BC1D9A22FA006018CA /* readium-shared-js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "readium-shared-js"; path = "MdCore/Resources/mathjax/readium-shared-js"; sourceTree = "<group>"; };
+		C32735C01D9A2657006018CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C32735C21D9A2662006018CA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C32735C41D9A2668006018CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C32735C61D9A2674006018CA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C32735C81D9A267D006018CA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C32735CC1D9A2A28006018CA /* MdCorePrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MdCorePrefix.pch; sourceTree = SOURCE_ROOT; };
+		C32735CE1D9A2A73006018CA /* LocStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocStr.h; path = Main/LocStr.h; sourceTree = "<group>"; };
+		C32735CF1D9A2A73006018CA /* LocStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocStr.m; path = Main/LocStr.m; sourceTree = "<group>"; };
+		C32735D31D9A2E29006018CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C32735D51D9A3081006018CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C32735D81D9A35EE006018CA /* readium-cfi-js.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-cfi-js.js"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-cfi-js.js"; sourceTree = "<group>"; };
+		C32735D91D9A35EE006018CA /* readium-cfi-js.js.bundles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-cfi-js.js.bundles.js"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-cfi-js.js.bundles.js"; sourceTree = "<group>"; };
+		C32735DA1D9A35EE006018CA /* readium-cfi-js.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = "readium-cfi-js.js.map"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-cfi-js.js.map"; sourceTree = "<group>"; };
+		C32735DB1D9A35EE006018CA /* readium-external-libs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-external-libs.js"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-external-libs.js"; sourceTree = "<group>"; };
+		C32735DC1D9A35EE006018CA /* readium-external-libs.js.bundles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-external-libs.js.bundles.js"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-external-libs.js.bundles.js"; sourceTree = "<group>"; };
+		C32735DD1D9A35EE006018CA /* readium-external-libs.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = "readium-external-libs.js.map"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-external-libs.js.map"; sourceTree = "<group>"; };
+		C32735DE1D9A35EE006018CA /* readium-shared-js.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-shared-js.js"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-shared-js.js"; sourceTree = "<group>"; };
+		C32735DF1D9A35EE006018CA /* readium-shared-js.js.bundles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-shared-js.js.bundles.js"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-shared-js.js.bundles.js"; sourceTree = "<group>"; };
+		C32735E01D9A35EE006018CA /* readium-shared-js.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = "readium-shared-js.js.map"; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/readium-shared-js.js.map"; sourceTree = "<group>"; };
+		C32735E11D9A35EE006018CA /* RequireJS.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = RequireJS.js; path = "MdCore/Resources/readium-shared-js/build-output/_multiple-bundles/RequireJS.js"; sourceTree = "<group>"; };
+		C32735E91D9A360E006018CA /* readium-shared-js_all.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-shared-js_all.js"; path = "../Readium/SDKLauncher-iOS/Resources/readium-shared-js/build-output/_single-bundle/readium-shared-js_all.js"; sourceTree = "<group>"; };
+		C32735EA1D9A360E006018CA /* readium-shared-js_all.js.bundles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "readium-shared-js_all.js.bundles.js"; path = "../Readium/SDKLauncher-iOS/Resources/readium-shared-js/build-output/_single-bundle/readium-shared-js_all.js.bundles.js"; sourceTree = "<group>"; };
+		C32735EB1D9A360E006018CA /* readium-shared-js_all.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = "readium-shared-js_all.js.map"; path = "../Readium/SDKLauncher-iOS/Resources/readium-shared-js/build-output/_single-bundle/readium-shared-js_all.js.map"; sourceTree = "<group>"; };
+		C32735EE1D9A3614006018CA /* sdk.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = sdk.css; path = "../Readium/SDKLauncher-iOS/Resources/readium-shared-js/build-output/css/sdk.css"; sourceTree = "<group>"; };
+		C32735F81D9A4206006018CA /* childrens-literature-20130206.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "childrens-literature-20130206.epub"; path = "MdCore/Resources/childrens-literature-20130206.epub"; sourceTree = "<group>"; };
+		C32735F91D9A4206006018CA /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "epub30-test-0120-20131022.epub"; path = "MdCore/Resources/epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
+		C32735FA1D9A4206006018CA /* epub30-test-0220-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "epub30-test-0220-20131022.epub"; path = "MdCore/Resources/epub30-test-0220-20131022.epub"; sourceTree = "<group>"; };
+		C32735FB1D9A4206006018CA /* epubReadingSystem.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = epubReadingSystem.epub; path = MdCore/Resources/epubReadingSystem.epub; sourceTree = "<group>"; };
+		C32735FC1D9A4206006018CA /* moby-dick-20120118.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "moby-dick-20120118.epub"; path = "MdCore/Resources/moby-dick-20120118.epub"; sourceTree = "<group>"; };
+		C32735FD1D9A4206006018CA /* page-blanche-20130322.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "page-blanche-20130322.epub"; path = "MdCore/Resources/page-blanche-20130322.epub"; sourceTree = "<group>"; };
+		C32735FE1D9A4206006018CA /* wasteland-20120118.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "wasteland-20120118.epub"; path = "MdCore/Resources/wasteland-20120118.epub"; sourceTree = "<group>"; };
+		C32736061D9A4A63006018CA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ViewControllers/Base/BaseViewController.h; sourceTree = "<group>"; };
+		C32736071D9A4A63006018CA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ViewControllers/Base/BaseViewController.m; sourceTree = "<group>"; };
+		C327360A1D9A50F8006018CA /* EPubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPubViewController.h; path = ViewControllers/EpubViewController/EPubViewController.h; sourceTree = "<group>"; };
+		C327360B1D9A50F8006018CA /* EPubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPubViewController.m; path = ViewControllers/EpubViewController/EPubViewController.m; sourceTree = "<group>"; };
+		C327360D1D9A5410006018CA /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bookmark.h; path = ViewControllers/EpubViewController/Bookmark.h; sourceTree = "<group>"; };
+		C327360E1D9A5410006018CA /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bookmark.m; path = ViewControllers/EpubViewController/Bookmark.m; sourceTree = "<group>"; };
+		C32736101D9A542B006018CA /* BookmarkDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookmarkDatabase.h; path = ViewControllers/EpubViewController/BookmarkDatabase.h; sourceTree = "<group>"; };
+		C32736111D9A542B006018CA /* BookmarkDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookmarkDatabase.m; path = ViewControllers/EpubViewController/BookmarkDatabase.m; sourceTree = "<group>"; };
+		C32736131D9A548D006018CA /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = ViewControllers/EpubViewController/Settings.h; sourceTree = "<group>"; };
+		C32736141D9A548D006018CA /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = ViewControllers/EpubViewController/Settings.m; sourceTree = "<group>"; };
+		C32736161D9A54AF006018CA /* EPubSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPubSettings.h; path = ViewControllers/EpubViewController/EPubSettings.h; sourceTree = "<group>"; };
+		C32736171D9A54AF006018CA /* EPubSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPubSettings.m; path = ViewControllers/EpubViewController/EPubSettings.m; sourceTree = "<group>"; };
+		C32736181D9A54AF006018CA /* EPubSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPubSettingsController.h; path = ViewControllers/EpubViewController/EPubSettingsController.h; sourceTree = "<group>"; };
+		C32736191D9A54AF006018CA /* EPubSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPubSettingsController.m; path = ViewControllers/EpubViewController/EPubSettingsController.m; sourceTree = "<group>"; };
+		C39384CA1D956EA300887AE4 /* MdCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MdCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39384CE1D956EA300887AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C39384D01D956EA300887AE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C39384D11D956EA300887AE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C39384D31D956EA300887AE4 /* BooksListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooksListViewController.h; sourceTree = "<group>"; };
+		C39384D41D956EA300887AE4 /* BooksListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooksListViewController.m; sourceTree = "<group>"; };
+		C39384D71D956EA300887AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C39384DA1D956EA300887AE4 /* MdCore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MdCore.xcdatamodel; sourceTree = "<group>"; };
+		C39384DC1D956EA300887AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C39384DF1D956EA300887AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C39384E11D956EA300887AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39384E81D9610D100887AE4 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppManager.h; path = AppManager/AppManager.h; sourceTree = "<group>"; };
+		C39384E91D9610D100887AE4 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppManager.m; path = AppManager/AppManager.m; sourceTree = "<group>"; };
+		C39384EB1D96234B00887AE4 /* BookItemUICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookItemUICollectionViewCell.h; path = ViewControllers/BookItemUICollectionViewCell.h; sourceTree = "<group>"; };
+		C39384EC1D96234B00887AE4 /* BookItemUICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookItemUICollectionViewCell.m; path = ViewControllers/BookItemUICollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39384C71D956EA300887AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32735C11D9A2657006018CA /* AVFoundation.framework in Frameworks */,
+				C32735D61D9A3081006018CA /* CoreData.framework in Frameworks */,
+				C32735C31D9A2662006018CA /* CFNetwork.framework in Frameworks */,
+				C32735D41D9A2E29006018CA /* CoreGraphics.framework in Frameworks */,
+				C32735C51D9A2668006018CA /* Foundation.framework in Frameworks */,
+				C32735C71D9A2674006018CA /* MobileCoreServices.framework in Frameworks */,
+				C32735C91D9A267D006018CA /* Security.framework in Frameworks */,
+				C32735B91D9A215F006018CA /* UIKit.framework in Frameworks */,
+				C32735B71D9A2159006018CA /* WebKit.framework in Frameworks */,
+				C32735B01D9A213F006018CA /* libePub3-iOS.a in Frameworks */,
+				C32735B51D9A2151006018CA /* libxml2.tbd in Frameworks */,
+				C32735B31D9A214B006018CA /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C327350E1D9A1C91006018CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32735141D9A1C91006018CA /* ePub3.dylib */,
+				C32735161D9A1C91006018CA /* libePub3-iOS.a */,
+				C32735181D9A1C91006018CA /* UnitTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C327353D1D9A1CC5006018CA /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C327353E1D9A1CCF006018CA /* CocoaHTTPServer */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		C327353E1D9A1CCF006018CA /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				C327353F1D9A1CD9006018CA /* Core */,
+				C32735401D9A1CE0006018CA /* Vendor */,
+			);
+			name = CocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		C327353F1D9A1CD9006018CA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C32735731D9A1D52006018CA /* Categories */,
+				C327357D1D9A1D6E006018CA /* Mime */,
+				C32735871D9A1D86006018CA /* Responses */,
+				C32735411D9A1CF2006018CA /* HTTPAuthenticationRequest.h */,
+				C32735421D9A1CF2006018CA /* HTTPAuthenticationRequest.m */,
+				C32735431D9A1CF2006018CA /* HTTPConnection.h */,
+				C32735441D9A1CF2006018CA /* HTTPConnection.m */,
+				C32735451D9A1CF2006018CA /* HTTPLogging.h */,
+				C32735461D9A1CF2006018CA /* HTTPMessage.h */,
+				C32735471D9A1CF2006018CA /* HTTPMessage.m */,
+				C32735481D9A1CF2006018CA /* HTTPResponse.h */,
+				C32735491D9A1CF2006018CA /* HTTPServer.h */,
+				C327354A1D9A1CF2006018CA /* HTTPServer.m */,
+				C327354B1D9A1CF2006018CA /* WebSocket.h */,
+				C327354C1D9A1CF2006018CA /* WebSocket.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C32735401D9A1CE0006018CA /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C32735521D9A1D04006018CA /* CocoaAsyncSocket */,
+				C32735531D9A1D0D006018CA /* CocoaLumberjack */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		C32735521D9A1D04006018CA /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				C32735541D9A1D18006018CA /* About.txt */,
+				C32735551D9A1D18006018CA /* GCDAsyncSocket.h */,
+				C32735561D9A1D18006018CA /* GCDAsyncSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		C32735531D9A1D0D006018CA /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				C327356A1D9A1D33006018CA /* Extensions */,
+				C32735591D9A1D24006018CA /* About.txt */,
+				C327355A1D9A1D24006018CA /* DDAbstractDatabaseLogger.h */,
+				C327355B1D9A1D24006018CA /* DDAbstractDatabaseLogger.m */,
+				C327355C1D9A1D24006018CA /* DDASLLogger.h */,
+				C327355D1D9A1D24006018CA /* DDASLLogger.m */,
+				C327355E1D9A1D24006018CA /* DDFileLogger.h */,
+				C327355F1D9A1D24006018CA /* DDFileLogger.m */,
+				C32735601D9A1D24006018CA /* DDLog.h */,
+				C32735611D9A1D24006018CA /* DDLog.m */,
+				C32735621D9A1D24006018CA /* DDTTYLogger.h */,
+				C32735631D9A1D24006018CA /* DDTTYLogger.m */,
+			);
+			name = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		C327356A1D9A1D33006018CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C327356B1D9A1D3D006018CA /* ContextFilterLogFormatter.h */,
+				C327356C1D9A1D3D006018CA /* ContextFilterLogFormatter.m */,
+				C327356D1D9A1D3D006018CA /* DispatchQueueLogFormatter.h */,
+				C327356E1D9A1D3D006018CA /* DispatchQueueLogFormatter.m */,
+				C327356F1D9A1D3D006018CA /* README.txt */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C32735731D9A1D52006018CA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C32735741D9A1D64006018CA /* DDData.h */,
+				C32735751D9A1D64006018CA /* DDData.m */,
+				C32735761D9A1D64006018CA /* DDNumber.h */,
+				C32735771D9A1D64006018CA /* DDNumber.m */,
+				C32735781D9A1D64006018CA /* DDRange.h */,
+				C32735791D9A1D64006018CA /* DDRange.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		C327357D1D9A1D6E006018CA /* Mime */ = {
+			isa = PBXGroup;
+			children = (
+				C327357E1D9A1D76006018CA /* MultipartFormDataParser.h */,
+				C327357F1D9A1D76006018CA /* MultipartFormDataParser.m */,
+				C32735801D9A1D76006018CA /* MultipartMessageHeader.h */,
+				C32735811D9A1D76006018CA /* MultipartMessageHeader.m */,
+				C32735821D9A1D76006018CA /* MultipartMessageHeaderField.h */,
+				C32735831D9A1D76006018CA /* MultipartMessageHeaderField.m */,
+			);
+			name = Mime;
+			sourceTree = "<group>";
+		};
+		C32735871D9A1D86006018CA /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				C32735881D9A1D8E006018CA /* HTTPAsyncFileResponse.h */,
+				C32735891D9A1D8E006018CA /* HTTPAsyncFileResponse.m */,
+				C327358A1D9A1D8E006018CA /* HTTPDataResponse.h */,
+				C327358B1D9A1D8E006018CA /* HTTPDataResponse.m */,
+				C327358C1D9A1D8E006018CA /* HTTPDynamicFileResponse.h */,
+				C327358D1D9A1D8E006018CA /* HTTPDynamicFileResponse.m */,
+				C327358E1D9A1D8E006018CA /* HTTPErrorResponse.h */,
+				C327358F1D9A1D8E006018CA /* HTTPErrorResponse.m */,
+				C32735901D9A1D8E006018CA /* HTTPFileResponse.h */,
+				C32735911D9A1D8E006018CA /* HTTPFileResponse.m */,
+				C32735921D9A1D8E006018CA /* HTTPRedirectResponse.h */,
+				C32735931D9A1D8E006018CA /* HTTPRedirectResponse.m */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+		C32735B11D9A214B006018CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C32735D51D9A3081006018CA /* CoreData.framework */,
+				C32735D31D9A2E29006018CA /* CoreGraphics.framework */,
+				C32735C81D9A267D006018CA /* Security.framework */,
+				C32735C61D9A2674006018CA /* MobileCoreServices.framework */,
+				C32735C41D9A2668006018CA /* Foundation.framework */,
+				C32735C21D9A2662006018CA /* CFNetwork.framework */,
+				C32735C01D9A2657006018CA /* AVFoundation.framework */,
+				C32735B81D9A215F006018CA /* UIKit.framework */,
+				C32735B61D9A2159006018CA /* WebKit.framework */,
+				C32735B41D9A2151006018CA /* libxml2.tbd */,
+				C32735B21D9A214B006018CA /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C32735BB1D9A22D2006018CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C32735F01D9A4065006018CA /* ebooks */,
+				C32735D71D9A35D1006018CA /* Injection */,
+				C32735BC1D9A22FA006018CA /* readium-shared-js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C32735CD1D9A2A6C006018CA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C32735CE1D9A2A73006018CA /* LocStr.h */,
+				C32735CF1D9A2A73006018CA /* LocStr.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C32735D71D9A35D1006018CA /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				C327359C1D9A209C006018CA /* mathjax */,
+				C32735EE1D9A3614006018CA /* sdk.css */,
+				C32735E91D9A360E006018CA /* readium-shared-js_all.js */,
+				C32735EA1D9A360E006018CA /* readium-shared-js_all.js.bundles.js */,
+				C32735EB1D9A360E006018CA /* readium-shared-js_all.js.map */,
+				C32735D81D9A35EE006018CA /* readium-cfi-js.js */,
+				C32735D91D9A35EE006018CA /* readium-cfi-js.js.bundles.js */,
+				C32735DA1D9A35EE006018CA /* readium-cfi-js.js.map */,
+				C32735DB1D9A35EE006018CA /* readium-external-libs.js */,
+				C32735DC1D9A35EE006018CA /* readium-external-libs.js.bundles.js */,
+				C32735DD1D9A35EE006018CA /* readium-external-libs.js.map */,
+				C32735DE1D9A35EE006018CA /* readium-shared-js.js */,
+				C32735DF1D9A35EE006018CA /* readium-shared-js.js.bundles.js */,
+				C32735E01D9A35EE006018CA /* readium-shared-js.js.map */,
+				C32735E11D9A35EE006018CA /* RequireJS.js */,
+				C327359F1D9A20BD006018CA /* epubReadingSystem.js */,
+				C327359E1D9A20BD006018CA /* annotations.css */,
+				C32735A11D9A20BD006018CA /* host_app_feedback.js */,
+				C32735A21D9A20BD006018CA /* reader_RequireJS-multiple-bundles.html */,
+				C32735A31D9A20BD006018CA /* reader_RequireJS-no-optimize.html */,
+				C32735A41D9A20BD006018CA /* reader_RequireJS-single-bundle.html */,
+				C32735A51D9A20BD006018CA /* reader.css */,
+				C32735A61D9A20BD006018CA /* reader.html */,
+			);
+			name = Injection;
+			sourceTree = "<group>";
+		};
+		C32735F01D9A4065006018CA /* ebooks */ = {
+			isa = PBXGroup;
+			children = (
+				C32735F81D9A4206006018CA /* childrens-literature-20130206.epub */,
+				C32735F91D9A4206006018CA /* epub30-test-0120-20131022.epub */,
+				C32735FA1D9A4206006018CA /* epub30-test-0220-20131022.epub */,
+				C32735FB1D9A4206006018CA /* epubReadingSystem.epub */,
+				C32735FC1D9A4206006018CA /* moby-dick-20120118.epub */,
+				C32735FD1D9A4206006018CA /* page-blanche-20130322.epub */,
+				C32735FE1D9A4206006018CA /* wasteland-20120118.epub */,
+			);
+			name = ebooks;
+			sourceTree = "<group>";
+		};
+		C32736091D9A50EE006018CA /* EpubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C327360D1D9A5410006018CA /* Bookmark.h */,
+				C327360E1D9A5410006018CA /* Bookmark.m */,
+				C32736101D9A542B006018CA /* BookmarkDatabase.h */,
+				C32736111D9A542B006018CA /* BookmarkDatabase.m */,
+				C32736161D9A54AF006018CA /* EPubSettings.h */,
+				C32736171D9A54AF006018CA /* EPubSettings.m */,
+				C32736181D9A54AF006018CA /* EPubSettingsController.h */,
+				C32736191D9A54AF006018CA /* EPubSettingsController.m */,
+				C327360A1D9A50F8006018CA /* EPubViewController.h */,
+				C327360B1D9A50F8006018CA /* EPubViewController.m */,
+				C32736131D9A548D006018CA /* Settings.h */,
+				C32736141D9A548D006018CA /* Settings.m */,
+			);
+			name = EpubViewController;
+			sourceTree = "<group>";
+		};
+		C39384C11D956EA300887AE4 = {
+			isa = PBXGroup;
+			children = (
+				C39384CC1D956EA300887AE4 /* MdCore */,
+				C39384FC1D98F79C00887AE4 /* RDServices */,
+				C327350D1D9A1C91006018CA /* ePub3.xcodeproj */,
+				C32735BB1D9A22D2006018CA /* Resources */,
+				C32735B11D9A214B006018CA /* Frameworks */,
+				C39384CB1D956EA300887AE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39384CB1D956EA300887AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39384CA1D956EA300887AE4 /* MdCore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39384CC1D956EA300887AE4 /* MdCore */ = {
+			isa = PBXGroup;
+			children = (
+				C32736091D9A50EE006018CA /* EpubViewController */,
+				C32735CD1D9A2A6C006018CA /* Main */,
+				C39384E71D9610AE00887AE4 /* AppManager */,
+				C39384D01D956EA300887AE4 /* AppDelegate.h */,
+				C39384D11D956EA300887AE4 /* AppDelegate.m */,
+				C39384D31D956EA300887AE4 /* BooksListViewController.h */,
+				C39384D41D956EA300887AE4 /* BooksListViewController.m */,
+				C39384EB1D96234B00887AE4 /* BookItemUICollectionViewCell.h */,
+				C39384EC1D96234B00887AE4 /* BookItemUICollectionViewCell.m */,
+				C39384D61D956EA300887AE4 /* Main.storyboard */,
+				C39384DC1D956EA300887AE4 /* Assets.xcassets */,
+				C39384DE1D956EA300887AE4 /* LaunchScreen.storyboard */,
+				C39384E11D956EA300887AE4 /* Info.plist */,
+				C39384D91D956EA300887AE4 /* MdCore.xcdatamodeld */,
+				C39384CD1D956EA300887AE4 /* Supporting Files */,
+			);
+			path = MdCore;
+			sourceTree = "<group>";
+		};
+		C39384CD1D956EA300887AE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39384CE1D956EA300887AE4 /* main.m */,
+				C32735CC1D9A2A28006018CA /* MdCorePrefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C39384E71D9610AE00887AE4 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				C39384E81D9610D100887AE4 /* AppManager.h */,
+				C39384E91D9610D100887AE4 /* AppManager.m */,
+				C32736061D9A4A63006018CA /* BaseViewController.h */,
+				C32736071D9A4A63006018CA /* BaseViewController.m */,
+			);
+			name = AppManager;
+			sourceTree = "<group>";
+		};
+		C39384FC1D98F79C00887AE4 /* RDServices */ = {
+			isa = PBXGroup;
+			children = (
+				C39384FD1D98F7A300887AE4 /* Main */,
+				C327353D1D9A1CC5006018CA /* ThirdParty */,
+			);
+			name = RDServices;
+			sourceTree = "<group>";
+		};
+		C39384FD1D98F7A300887AE4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C32735191D9A1CBD006018CA /* NSDate+RDDateAsString.h */,
+				C327351A1D9A1CBD006018CA /* NSDate+RDDateAsString.m */,
+				C327351B1D9A1CBD006018CA /* RDContainer.h */,
+				C327351C1D9A1CBD006018CA /* RDContainer.mm */,
+				C327351D1D9A1CBD006018CA /* RDMediaOverlaysSmilModel.h */,
+				C327351E1D9A1CBD006018CA /* RDMediaOverlaysSmilModel.mm */,
+				C327351F1D9A1CBD006018CA /* RDNavigationElement.h */,
+				C32735201D9A1CBD006018CA /* RDNavigationElement.mm */,
+				C32735211D9A1CBD006018CA /* RDPackage.h */,
+				C32735221D9A1CBD006018CA /* RDPackage.mm */,
+				C32735231D9A1CBD006018CA /* RDPackageResource.h */,
+				C32735241D9A1CBD006018CA /* RDPackageResource.mm */,
+				C32735251D9A1CBD006018CA /* RDPackageResourceConnection.h */,
+				C32735261D9A1CBD006018CA /* RDPackageResourceConnection.m */,
+				C32735271D9A1CBD006018CA /* RDPackageResourceDataResponse.h */,
+				C32735281D9A1CBD006018CA /* RDPackageResourceDataResponse.m */,
+				C32735291D9A1CBD006018CA /* RDPackageResourceResponse.h */,
+				C327352A1D9A1CBD006018CA /* RDPackageResourceResponse.m */,
+				C327352B1D9A1CBD006018CA /* RDPackageResourceServer.h */,
+				C327352C1D9A1CBD006018CA /* RDPackageResourceServer.m */,
+				C327352D1D9A1CBD006018CA /* RDSmilData.h */,
+				C327352E1D9A1CBD006018CA /* RDSmilData.mm */,
+				C327352F1D9A1CBD006018CA /* RDSpineItem.h */,
+				C32735301D9A1CBD006018CA /* RDSpineItem.mm */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39384C91D956EA300887AE4 /* MdCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39384E41D956EA300887AE4 /* Build configuration list for PBXNativeTarget "MdCore" */;
+			buildPhases = (
+				C39384C61D956EA300887AE4 /* Sources */,
+				C39384C71D956EA300887AE4 /* Frameworks */,
+				C39384C81D956EA300887AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C327359B1D9A1FEC006018CA /* PBXTargetDependency */,
+			);
+			name = MdCore;
+			productName = MdCore;
+			productReference = C39384CA1D956EA300887AE4 /* MdCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39384C21D956EA300887AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jid Hatami";
+				TargetAttributes = {
+					C39384C91D956EA300887AE4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S6GL3VTAFF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C39384C51D956EA300887AE4 /* Build configuration list for PBXProject "MdCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39384C11D956EA300887AE4;
+			productRefGroup = C39384CB1D956EA300887AE4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C327350E1D9A1C91006018CA /* Products */;
+					ProjectRef = C327350D1D9A1C91006018CA /* ePub3.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C39384C91D956EA300887AE4 /* MdCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C32735141D9A1C91006018CA /* ePub3.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = ePub3.dylib;
+			remoteRef = C32735131D9A1C91006018CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C32735161D9A1C91006018CA /* libePub3-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libePub3-iOS.a";
+			remoteRef = C32735151D9A1C91006018CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C32735181D9A1C91006018CA /* UnitTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = UnitTests;
+			remoteRef = C32735171D9A1C91006018CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39384C81D956EA300887AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32735FF1D9A4206006018CA /* childrens-literature-20130206.epub in Resources */,
+				C32736001D9A4206006018CA /* epub30-test-0120-20131022.epub in Resources */,
+				C32736011D9A4206006018CA /* epub30-test-0220-20131022.epub in Resources */,
+				C32736021D9A4206006018CA /* epubReadingSystem.epub in Resources */,
+				C32736031D9A4206006018CA /* moby-dick-20120118.epub in Resources */,
+				C32736041D9A4206006018CA /* page-blanche-20130322.epub in Resources */,
+				C32736051D9A4206006018CA /* wasteland-20120118.epub in Resources */,
+				C32735A71D9A20BD006018CA /* annotations.css in Resources */,
+				C32735E41D9A35EE006018CA /* readium-external-libs.js in Resources */,
+				C32735A81D9A20BD006018CA /* epubReadingSystem.js in Resources */,
+				C32735ED1D9A360E006018CA /* readium-shared-js_all.js.bundles.js in Resources */,
+				C32735AA1D9A20BD006018CA /* host_app_feedback.js in Resources */,
+				C32735AB1D9A20BD006018CA /* reader_RequireJS-multiple-bundles.html in Resources */,
+				C32735AC1D9A20BD006018CA /* reader_RequireJS-no-optimize.html in Resources */,
+				C32735AD1D9A20BD006018CA /* reader_RequireJS-single-bundle.html in Resources */,
+				C32735E31D9A35EE006018CA /* readium-cfi-js.js.bundles.js in Resources */,
+				C32735E71D9A35EE006018CA /* readium-shared-js.js.bundles.js in Resources */,
+				C32735AE1D9A20BD006018CA /* reader.css in Resources */,
+				C32735BD1D9A22FA006018CA /* readium-shared-js in Resources */,
+				C32735AF1D9A20BD006018CA /* reader.html in Resources */,
+				C327359D1D9A209C006018CA /* mathjax in Resources */,
+				C32735E81D9A35EE006018CA /* RequireJS.js in Resources */,
+				C32735EC1D9A360E006018CA /* readium-shared-js_all.js in Resources */,
+				C32735E51D9A35EE006018CA /* readium-external-libs.js.bundles.js in Resources */,
+				C32735EF1D9A3614006018CA /* sdk.css in Resources */,
+				C32735E21D9A35EE006018CA /* readium-cfi-js.js in Resources */,
+				C32735E61D9A35EE006018CA /* readium-shared-js.js in Resources */,
+				C39384E01D956EA300887AE4 /* LaunchScreen.storyboard in Resources */,
+				C39384DD1D956EA300887AE4 /* Assets.xcassets in Resources */,
+				C39384D81D956EA300887AE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39384C61D956EA300887AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32735681D9A1D24006018CA /* DDLog.m in Sources */,
+				C32735581D9A1D18006018CA /* GCDAsyncSocket.m in Sources */,
+				C32735861D9A1D76006018CA /* MultipartMessageHeaderField.m in Sources */,
+				C39384ED1D96234B00887AE4 /* BookItemUICollectionViewCell.m in Sources */,
+				C32736121D9A542B006018CA /* BookmarkDatabase.m in Sources */,
+				C32735711D9A1D3D006018CA /* DispatchQueueLogFormatter.m in Sources */,
+				C39384D51D956EA300887AE4 /* BooksListViewController.m in Sources */,
+				C327357A1D9A1D64006018CA /* DDData.m in Sources */,
+				C32735371D9A1CBD006018CA /* RDPackageResourceConnection.m in Sources */,
+				C327361A1D9A54AF006018CA /* EPubSettings.m in Sources */,
+				C32735391D9A1CBD006018CA /* RDPackageResourceResponse.m in Sources */,
+				C32735971D9A1D8E006018CA /* HTTPErrorResponse.m in Sources */,
+				C32735981D9A1D8E006018CA /* HTTPFileResponse.m in Sources */,
+				C32735691D9A1D24006018CA /* DDTTYLogger.m in Sources */,
+				C32735501D9A1CF2006018CA /* HTTPServer.m in Sources */,
+				C32736081D9A4A63006018CA /* BaseViewController.m in Sources */,
+				C32735941D9A1D8E006018CA /* HTTPAsyncFileResponse.m in Sources */,
+				C32735361D9A1CBD006018CA /* RDPackageResource.mm in Sources */,
+				C32735671D9A1D24006018CA /* DDFileLogger.m in Sources */,
+				C327353A1D9A1CBD006018CA /* RDPackageResourceServer.m in Sources */,
+				C32735D01D9A2A73006018CA /* LocStr.m in Sources */,
+				C327353B1D9A1CBD006018CA /* RDSmilData.mm in Sources */,
+				C32735841D9A1D76006018CA /* MultipartFormDataParser.m in Sources */,
+				C32735851D9A1D76006018CA /* MultipartMessageHeader.m in Sources */,
+				C32735511D9A1CF2006018CA /* WebSocket.m in Sources */,
+				C32735661D9A1D24006018CA /* DDASLLogger.m in Sources */,
+				C32735351D9A1CBD006018CA /* RDPackage.mm in Sources */,
+				C39384D21D956EA300887AE4 /* AppDelegate.m in Sources */,
+				C32735951D9A1D8E006018CA /* HTTPDataResponse.m in Sources */,
+				C327357C1D9A1D64006018CA /* DDRange.m in Sources */,
+				C32735381D9A1CBD006018CA /* RDPackageResourceDataResponse.m in Sources */,
+				C32735651D9A1D24006018CA /* DDAbstractDatabaseLogger.m in Sources */,
+				C39384CF1D956EA300887AE4 /* main.m in Sources */,
+				C32735331D9A1CBD006018CA /* RDMediaOverlaysSmilModel.mm in Sources */,
+				C327354F1D9A1CF2006018CA /* HTTPMessage.m in Sources */,
+				C32735311D9A1CBD006018CA /* NSDate+RDDateAsString.m in Sources */,
+				C32735701D9A1D3D006018CA /* ContextFilterLogFormatter.m in Sources */,
+				C32735961D9A1D8E006018CA /* HTTPDynamicFileResponse.m in Sources */,
+				C327353C1D9A1CBD006018CA /* RDSpineItem.mm in Sources */,
+				C32736151D9A548D006018CA /* Settings.m in Sources */,
+				C327361B1D9A54AF006018CA /* EPubSettingsController.m in Sources */,
+				C39384EA1D9610D100887AE4 /* AppManager.m in Sources */,
+				C32735991D9A1D8E006018CA /* HTTPRedirectResponse.m in Sources */,
+				C327354D1D9A1CF2006018CA /* HTTPAuthenticationRequest.m in Sources */,
+				C32735341D9A1CBD006018CA /* RDNavigationElement.mm in Sources */,
+				C327360F1D9A5410006018CA /* Bookmark.m in Sources */,
+				C327360C1D9A50F8006018CA /* EPubViewController.m in Sources */,
+				C32735321D9A1CBD006018CA /* RDContainer.mm in Sources */,
+				C327354E1D9A1CF2006018CA /* HTTPConnection.m in Sources */,
+				C327357B1D9A1D64006018CA /* DDNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C327359B1D9A1FEC006018CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ePub3-iOS";
+			targetProxy = C327359A1D9A1FEC006018CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39384D61D956EA300887AE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39384D71D956EA300887AE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C39384DE1D956EA300887AE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39384DF1D956EA300887AE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39384E21D956EA300887AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C39384E31D956EA300887AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C39384E51D956EA300887AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = S6GL3VTAFF;
+				GCC_PREFIX_HEADER = MdCorePrefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2",
+					"${SRCROOT}/readium-sdk/Platform/Apple/include",
+				);
+				INFOPLIST_FILE = MdCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeysolution.MdCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C39384E61D956EA300887AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = S6GL3VTAFF;
+				GCC_PREFIX_HEADER = MdCorePrefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2",
+					"${SRCROOT}/readium-sdk/Platform/Apple/include",
+				);
+				INFOPLIST_FILE = MdCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkeysolution.MdCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39384C51D956EA300887AE4 /* Build configuration list for PBXProject "MdCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39384E21D956EA300887AE4 /* Debug */,
+				C39384E31D956EA300887AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39384E41D956EA300887AE4 /* Build configuration list for PBXNativeTarget "MdCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39384E51D956EA300887AE4 /* Debug */,
+				C39384E61D956EA300887AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C39384D91D956EA300887AE4 /* MdCore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C39384DA1D956EA300887AE4 /* MdCore.xcdatamodel */,
+			);
+			currentVersion = C39384DA1D956EA300887AE4 /* MdCore.xcdatamodel */;
+			path = MdCore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C39384C21D956EA300887AE4 /* Project object */;
+}

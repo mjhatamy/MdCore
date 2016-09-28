@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7EA574B7954BB140EB4FDBD252E584FCDFCE648C" : 9223372036854775807,
+    "AD4E54206183D886987A2A3031947817F2F202B6" : 9223372036854775807,
+    "9581619829FA695F5414245957B767B22088B7EE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "978C1461-C9A0-40AD-A6B0-9EFCECDF503E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7EA574B7954BB140EB4FDBD252E584FCDFCE648C" : "Readium\/SDKLauncher-iOS\/readium-sdk\/",
+    "AD4E54206183D886987A2A3031947817F2F202B6" : "Readium\/SDKLauncher-iOS\/Resources\/readium-shared-js\/",
+    "9581619829FA695F5414245957B767B22088B7EE" : "Readium\/SDKLauncher-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MdCore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MdCore.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/readium\/readium-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7EA574B7954BB140EB4FDBD252E584FCDFCE648C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/readium\/SDKLauncher-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9581619829FA695F5414245957B767B22088B7EE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/readium\/readium-shared-js.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4E54206183D886987A2A3031947817F2F202B6"
+    }
+  ]
+}
